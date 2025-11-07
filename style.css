@@ -119,6 +119,12 @@ h2 {
     height: 300px;
 }
 
+@media (max-width: 768px) {
+  .hero {
+    width: 100%;
+  }
+}
+
 .services::after {
     content: " ✨"; /* adds sparkle after heading */
 }
@@ -130,6 +136,7 @@ h2 {
 .cards {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .card {
